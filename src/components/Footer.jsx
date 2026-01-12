@@ -239,9 +239,6 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Particles effect */}
-            <div className="absolute bottom-0 left-0 right-0 h-1 bg-linear-to-r from-orange-500 via-amber-500 to-orange-500"></div>
-
             {/* Floating elements */}
             <div className="absolute bottom-20 left-10 w-4 h-4 bg-orange-500 rounded-full opacity-30 animate-ping"></div>
             <div className="absolute bottom-40 right-20 w-6 h-6 bg-blue-500 rounded-full opacity-20 animate-pulse animation-delay-1000"></div>

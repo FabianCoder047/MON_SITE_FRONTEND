@@ -13,9 +13,9 @@ const Navbar = () => {
 
     // Sous-liens pour le dropdown Portfolio
     const portfolioLinks = [
-        { label: 'A propos', href: '#' },
-        { label: 'Projets', href: '#' },
-        { label: 'Contact', href: '#' }
+        { label: 'A propos', href: '/a-propos' },
+        { label: 'Projets', href: '/projets' },
+        { label: 'Contact', href: '/contact' }
     ];
 
     // Liens pour le menu mobile (tous sauf le dernier)
@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="navbar bg-linear-to-r from-orange-100 to-orange-400 px-8 lg:px-20 py-5 sticky top-0 z-50 shadow-lg border-b border-orange-200">
             {/* Logo à gauche */}
             <div className="navbar-start">
-                <a href="" className="text-2xl font-bold tracking-tight">
+                <a href="/" className="text-2xl font-bold tracking-tight">
                     <span className="text-orange-700">FabianCoder</span>
                     <p className="text-sm text-gray-700">Everything is digitable !!</p>
                 </a>
